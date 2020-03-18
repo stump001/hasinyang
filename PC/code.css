@@ -1,13 +1,20 @@
-/* 2020년 02월 12일 ver. */
+/* 2020년 03월 18일 ver. */
 
 html {
   background: linear-gradient(to bottom, #F5A9A9, #F6CECE);
   height: auto !important;
+
 }
 body {
 letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'S-CoreDream-3Light', 'Nanum Gothic', sans-serif;
+  background-image: url('https://cdn.discordapp.com/attachments/689781006202437663/689781090138849313/a59a1d22279c5195.png'), url('https://cdn.discordapp.com/attachments/689781006202437663/689781122766209025/b21f8ff37640cb26.png'), url('https://cdn.discordapp.com/attachments/689781006202437663/689781136880173142/84c8cc9cdb393c7e.png');
+
+ -webkit-animation: snow 20s linear infinite;
+ -moz-animation: snow 20s linear infinite;
+ -ms-animation: snow 20s linear infinite;
+ animation: snow 20s linear infinite;
 }
 
 /* 전체 쉐도우 */
@@ -247,7 +254,7 @@ span.a-badge i.fa.fa-info-circle {
   background: #F5A9A9 !important;
 }
 /* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
-/* @keyframes snow {
+@keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
 }
@@ -266,4 +273,4 @@ span.a-badge i.fa.fa-info-circle {
 @-ms-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-} */
+}
