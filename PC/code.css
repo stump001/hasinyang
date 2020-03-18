@@ -9,7 +9,7 @@ body {
 letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'S-CoreDream-3Light', 'Nanum Gothic', sans-serif;
-  background-image: url('https://cdn.discordapp.com/attachments/689781006202437663/689781090138849313/a59a1d22279c5195.png'), url('https://cdn.discordapp.com/attachments/689781006202437663/689781122766209025/b21f8ff37640cb26.png'), url('https://cdn.discordapp.com/attachments/689781006202437663/689784266707697664/66e32f4a24871533.png');
+  background-image: url('https://cdn.discordapp.com/attachments/689781006202437663/689781122766209025/b21f8ff37640cb26.png'), url('https://cdn.discordapp.com/attachments/689781006202437663/689784266707697664/66e32f4a24871533.png');
 
  -webkit-animation: snow 20s linear infinite;
  -moz-animation: snow 20s linear infinite;
@@ -256,21 +256,21 @@ span.a-badge i.fa.fa-info-circle {
 /* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
 @keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+ 100% {background-position: 500px 500px, 400px 400px}
 }
   
 @-moz-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+100% {background-position: 500px 500px, 400px 400px}
 }
   
 @-webkit-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  50% {}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+ 100% {background-position: 500px 500px, 400px 400px}
 }
   
 @-ms-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+ 100% {background-position: 500px 500px, 400px 400px }
 }
